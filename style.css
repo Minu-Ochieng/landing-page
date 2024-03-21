@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-wrapper {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.ditio {
+  width: 20px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  padding: 3px;
+}
+.active {
+  font-weight: bolder;
+}
+#ditio {
+  display: flex;
+}
+.btn {
+  border-radius: 10%;
+  border: none;
+  background-color: #ff7589;
+}
+.deliver {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+}
+.appstore {
+  width: 90px;
+  height: 40px;
+  /* object-fit: cover; */
+}
+.google {
+  width: 100px;
+  height: 50px;
+}
+.way {
+  margin-top: 5%;
+}
+.apps {
+  display: flex;
+}
+.microsoft {
+  width: 100px;
+  height: 20px;
+  object-fit: cover;
+}
+.trello {
+  width: 80px;
+  height: 20px;
+  object-fit: cover;
+}
+.ggg {
+  width: 100px;
+  height: 40px;
+  object-fit: cover;
+}
+.slack {
+  width: 100px;
+  height: 20px;
+  object-fit: cover;
+}
+.product {
+  display: flex;
+  gap: 3%;
+}
+
+.copy {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer {
+  background-color: #252849;
+  color: #fff;
+  display: flex;
+  padding: 16px;
+}
+.io {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding: 3px;
+}
+.top {
+  padding-left: 3%;
+}
+.products {
+  padding-left: 3%;
+}
+.company {
+  padding-left: 3%;
+}
+.resources {
+  padding-left: 3%;
+}
+.big {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  margin-left: 18%;
+}
+.fifty {
+
+  font-size: 28px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.mobile-app{
+    font-size: 18px;
+}
