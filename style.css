@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
+  padding: 8px;
 }
 .main-wrapper {
   margin-left: 20%;
@@ -46,6 +47,8 @@ a {
 }
 .apps {
   display: flex;
+  justify-content: center;
+  gap: 9%;
 }
 .microsoft {
   width: 100px;
@@ -70,6 +73,7 @@ a {
 .product {
   display: flex;
   gap: 3%;
+  font-size: 25px;
 }
 
 .copy {
@@ -112,14 +116,189 @@ li {
   margin-left: 18%;
 }
 .fifty {
-
   font-size: 28px;
 }
-.two{
+.two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+.mobile-app {
+  font-size: 18px;
+}
+.testimonies {
+  display: flex;
+}
+.edwin {
+  border: 1px solid #fbb6b6;
+  border-radius: 3%;
+}
+.prof {
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.name {
+  font-size: 15px;
+  padding: 5%;
+}
+.pay {
+  padding: 5%;
+}
+.words {
+  font-size: 28px;
+  text-align: center;
+  margin: 5%;
+}
+.some {
+  color: red;
+}
+.two-set {
+  display: flex;
+}
+.customer {
+  text-align: center;
+  font-size: 28px;
+  margin: 5%;
+}
+.interface {
+  padding: 3%;
+}
+.numbers {
+  display: flex;
+}
+.person-image {
+  height: 350px;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+.socials-1,
+.socials-2 {
+  display: flex;
+}
+
+.k {
+  font-size: 28px;
+  padding: 5%;
+}
+.downloads,
+.users,
+.group,
+.subscribers {
+  padding: 8%;
+}
+.line {
+  font-size: 25px;
+  text-align: center;
+}
+.product {
+  margin: 3%;
+}
+.interface {
+  border: 1px solid #fbb6b6;
+}
+.fav,
+.transfer,
+.twenny {
+  width: 20px;
+}
+.bussiness {
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+  margin: 5%;
+}
+.tilt {
+  height: 350px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 16px;
+}
+.way {
+  font-size: 30px;
+}
+.software {
+  margin: 3%;
+}
+.see {
+  font-size: 20px;
+}
+.interface {
+  font-size: 18px;
+}
+button {
+  background-color: #252849;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .categories {
+    display: flex;
+  }
+  .container {
+    display: block;
+    margin: 3%;
+  }
+  .product {
+    display: block;
+  }
+  .numbers {
+    display: block;
+  }
+  .two-set {
+    display: block;
+  }
+  .testimonies {
+    display: block;
+  }
+  .wrapper {
+    display: block;
+  }
+  .footer {
+    display: block;
+  }
+  .tilt {
+    width: 150px;
+  }
+  .categories {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+  }
+  .person-image {
+    width: 150px;
+  }
+  .img-setting {
+    width: 150px;
+  }
+  .mobile {
+    width: 150px;
+  }
 }
-.mobile-app{
-    font-size: 18px;
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  .wrapper {
+    display: block;
+  }
+  .two-set {
+    display: block;
+  }
+  .software {
+    margin: 5%;
+  }
+  .numbers {
+    display: block;
+  }
+  .container {
+    display: block;
+  }
 }
